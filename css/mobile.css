@@ -1,0 +1,44 @@
+/* <!-- header --> */
+
+.nav-ul {
+  display: none;
+}
+#hamburger-menu {
+  display: block !important;
+  color: var(--light-color);
+  font-size: 22px;
+  cursor: pointer;
+}
+
+/* <!-- slider --> */
+#section1 {
+  display: block !important;
+}
+/* <!-- articles --> */
+#article {
+  display: block;
+}
+
+#section2 #article .cards:first-child,
+#section2 #article .cards:last-child {
+  display: block;
+}
+#article .cards {
+  margin: 1rem auto;
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 1rem auto;
+}
+#a-footer a {
+  border-bottom: #555 dotted 1px;
+  width: 15rem;
+}
+
+.about-container {
+  display: block;
+}
